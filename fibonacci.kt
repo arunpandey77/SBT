@@ -4,7 +4,7 @@ fun fibonacci(n: Int): Int {
 
     var a = 0
     var b = 1
-    var c = 0
+    var c: Int
     for (i in 2..n) {
         c = a + b
         a = b
