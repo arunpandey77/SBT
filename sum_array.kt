@@ -9,7 +9,6 @@ fun sumArray(arr: IntArray, length: Int): Int {
 fun main() {
     val numbers = intArrayOf(1, 2, 3, 4, 5)
     val length = numbers.size
-
     val result = sumArray(numbers, length)
     println("Sum of array = $result")
 }
