@@ -1,6 +1,7 @@
 fun fibonacci(n: Int): Int {
     if (n <= 0) return 0
     if (n == 1) return 1
+
     var a = 0
     var b = 1
     var c: Int
@@ -14,8 +15,7 @@ fun fibonacci(n: Int): Int {
 
 fun main() {
     val n = 10
-    print("Fibonacci series up to $n terms:
-")
+    println("Fibonacci series up to $n terms:")
     for (i in 0 until n) {
         print("${fibonacci(i)} ")
     }
