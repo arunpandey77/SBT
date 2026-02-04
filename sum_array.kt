@@ -1,7 +1,7 @@
 fun sumArray(arr: IntArray): Int {
     var sum = 0
-    for (num in arr) {
-        sum += num
+    for (i in arr.indices) {
+        sum += arr[i]
     }
     return sum
 }
